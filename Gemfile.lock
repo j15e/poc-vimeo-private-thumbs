@@ -2,12 +2,25 @@ GEM
   remote: https://rubygems.org/
   specs:
     byebug (8.2.1)
+    domain_name (0.5.23)
+      unf (>= 0.0.5, < 1.0.0)
+    http-cookie (1.0.2)
+      domain_name (~> 0.5)
     httparty (0.13.7)
       json (~> 1.8)
       multi_xml (>= 0.5.2)
     json (1.8.3)
+    mime-types (2.99)
     multi_xml (0.5.5)
+    netrc (0.10.3)
     rake (10.4.2)
+    rest-client (1.8.0)
+      http-cookie (>= 1.0.2, < 2.0)
+      mime-types (>= 1.16, < 3.0)
+      netrc (~> 0.7)
+    unf (0.1.4)
+      unf_ext
+    unf_ext (0.0.6)
 
 PLATFORMS
   ruby
@@ -16,6 +29,7 @@ DEPENDENCIES
   byebug
   httparty
   rake
+  rest-client
 
 BUNDLED WITH
    1.11.2

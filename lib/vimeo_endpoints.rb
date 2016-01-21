@@ -1,6 +1,6 @@
 require 'httparty'
 
-class Vimeo
+class VimeoEndpoints
   include HTTParty
   base_uri 'https://api.vimeo.com'
 
